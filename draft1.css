@@ -1,15 +1,11 @@
- body {
+body {
     background-color: black;
     color: aliceblue;
-     padding: 0 48px;
+    padding: 0 48px;
 
- }
+}
 
-    
-
-
-
-.navbar{
+.navbar {
     padding: 12px 0px 12px 0px;
     border: 0px 0px 1px 0px;
     display: flex;
@@ -20,11 +16,11 @@
 
 }
 
-.title-left{
+.title-left {
     gap: 12px;
 }
 
-.title-left p{
+.title-left p {
     color: white;
     font-family: MuseoModerno;
     font-size: 42px;
@@ -35,11 +31,9 @@
 
 }
 
-.title-right{
+.title-right {
 
     gap: 24px;
-
-
 }
 
 .title-right a {
@@ -53,16 +47,16 @@
     margin: 0px 10px;
 }
 
-
-
 hr {
     width: 100%;
     border: 1px solid rgba(255, 255, 255, 1);
 }
-.main1{
+
+.main1 {
     width: 100%;
     text-align: center;
 }
+
 .main1 h1 {
     font-family: Chivo;
     font-size: 120px;
@@ -72,20 +66,16 @@ hr {
 }
 
 .main1 img {
-    /* margin: 0 auto; */
     width: 100%;
     text-align: center;
-    /* align-items: center; */
     border-radius: 56px;
-    
-    
 }
 
 .project-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    /* width: 90%; */
+
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -94,22 +84,22 @@ hr {
 .main2 {
     margin-top: 100px;
 }
-.lastimg img{
+
+.lastimg img {
     width: 288x;
 }
-.main2 img{
 
+.main2 img {
     width: 100%;
 }
-.project-grid h3{
+
+.project-grid h3 {
     font-family: Archivo;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     text-align: left;
-
     margin-bottom: 0;
-
 }
 
 .project-grid h4 {
@@ -120,20 +110,15 @@ hr {
     font-weight: 500;
     line-height: 24px;
     text-align: left;
-    
     margin-top: 0;
-
-
 }
 
 .project-grid img {
-    /* width: auto; */
     border: 1px;
     border-radius: 5px;
-
 }
 
-.contact{
+.contact {
     text-align: center;
 }
 
@@ -161,8 +146,6 @@ hr {
     font-weight: 500;
     line-height: 24px;
     text-align: left;
-
-
 }
 
 .contact button {
@@ -180,17 +163,14 @@ hr {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     border: none;
-
 }
 
-.contact .image img{
+.contact .image img {
     gap: 24px;
     padding: 6px;
     opacity: 0px;
     margin-top: 20px;
-
 }
-
 
 .footer {
     margin-top: 130px;
@@ -201,18 +181,15 @@ hr {
 }
 
 .footer .con-left {
-
     font-size: 28px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: -0.01em;
     text-align: left;
     opacity: 60%;
-
 }
 
-.footer .con-right button{
-    
+.footer .con-right button {
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -223,28 +200,24 @@ hr {
     border-radius: 7px;
     padding: 10px;
     border: none;
-
-
 }
 
-.image{
+.image {
     align-items: center;
+    margin-top: 30px;
+}
 
-     margin-top: 30px; }
-
-.form-container{
-    
+.form-container {
     text-align: center;
-    width: Fill (1,344px)px;
+    width: Fill (1, 344px)px;
     height: Hug (492px)px;
     padding: 32px 0px 32px 0px;
     gap: 32px;
     border: 0px 0px var(--strokeWidth) 0px;
     opacity: 0px;
-
 }
 
-.form-container h1{
+.form-container h1 {
     font-family: Domine;
     font-size: 34px;
     font-weight: 700;
@@ -255,10 +228,9 @@ hr {
     text-decoration-skip-ink: none;
     width: Fill (700px)px;
     margin-bottom: 0px;
-
 }
 
-.form-container h3{
+.form-container h3 {
     font-family: Archivo;
     font-size: 20px;
     font-weight: 500;
@@ -267,37 +239,33 @@ hr {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin-top: 0px;
-
 }
 
-.form-grid{
+.form-grid {
     display: grid;
-    margin:0 auto;
+    margin: 0 auto;
     grid-template-columns: 1fr 1fr;
     width: Fill (700px)px;
     height: Fixed (320px)px;
     max-width: 700px;
     gap: 12px;
-    opacity: 0px;
-    
-
-    
-
 }
 
-.form-grid .email{
+.form-grid .email {
     grid-column: span 2;
 }
-    
-input[id = "firstname"], input[id = "lastname"], .email{
-    
+
+input[id="firstname"],
+input[id="lastname"],
+.email {
+
     height: Hug (44px)px;
     min-height: 44px;
-    padding: 8px ;
+    padding: 8px;
     gap: 8px;
-    border-radius: 22px ;
+    border-radius: 22px;
     border: 1px solid white;
-    
+
     background-color: black;
     color: white;
     font-family: Archivo;
@@ -311,14 +279,14 @@ input[id = "firstname"], input[id = "lastname"], .email{
 
 }
 
-input[id="address"]{
+input[id="address"] {
     grid-column: span 2;
     width: Fill (700px)px;
     height: Hug (124px)px;
     min-height: 124px;
-    padding: 8px ;
+    padding: 8px;
     gap: 8px;
-    border-radius: 22px ;
+    border-radius: 22px;
     border: 1px solid white;
     opacity: 0px;
     background-color: black;
@@ -330,14 +298,12 @@ input[id="address"]{
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
-
 }
 
-input[type="submit"]{
-    width:  75px;
+input[type="submit"] {
+    width: 75px;
     height: 32px;
-    border-radius: 22px ;
+    border-radius: 22px;
     background: rgba(146, 141, 211, 1);
     color: white;
     font-family: Chivo;
@@ -347,26 +313,24 @@ input[type="submit"]{
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+}
 
-
-
-
-}   
-
-@media (max-width:950px)  {
-    .project-grid{
+@media (max-width:950px) {
+    .project-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
-    .contact button{
+
+    .contact button {
         margin-top: 10px;
-        
+
     }
-    .contact input{
+
+    .contact input {
         width: 70%;
     }
-    
+
     .navbar {
         flex-direction: column;
         flex-wrap: wrap;
@@ -379,59 +343,62 @@ input[type="submit"]{
     .title-right {
         display: flex;
         justify-content: center;
-       
+
 
     }
 
     .title-right a {
         text-align: left;
         padding: 10px 20px;
-        width: 100%; 
+        width: 100%;
         line-height: 1.5;
-        
+
     }
 
-    .title-left{
+    .title-left {
         display: flex;
         justify-content: center;
-        
-    
-}
-.title-left p{
-    font-size: 10vw;
-}
 
-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.main2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
+    }
+
+    .title-left p {
+        font-size: 10vw;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .main2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 @media (max-width:750px) {
-    .main1 h1{
+    .main1 h1 {
         font-size: 60px;
     }
-    .main1 img{
+
+    .main1 img {
         border-radius: 15px;
     }
 
-    
+
 }
 
-
-@media(max-width:530px){
+@media(max-width:530px) {
     .navbar {
         flex-direction: column;
         flex-wrap: wrap;
@@ -440,20 +407,23 @@ form{
         justify-content: center;
         align-items: center;
     }
-    .title-left{
+
+    .title-left {
         font-size: 20px;
     }
-    .project-grid{
+
+    .project-grid {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 15px;
     }
-    .form-grid{
+
+    .form-grid {
         width: 70px;
         height: 80px;
     }
 
-    .main1 h1{
+    .main1 h1 {
         font-size: 40px;
     }
 
@@ -500,6 +470,3 @@ form{
         padding: 10px;
     }
 }
-
-
- 
